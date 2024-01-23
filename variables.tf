@@ -13,10 +13,3 @@ variable "force_destroy" {
   description = "Enable force destroy for S3 bucket"
   default = false
 }
-
-
-variable "dummy" {
-  type = bool
-  description = "Dummay variable"
-  default = false
-}
